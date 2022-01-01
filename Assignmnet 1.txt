@@ -1,0 +1,34 @@
+Q # 1
+
+print("Twinkle, twinkle, little star, \n\tHow I wonder what you are! \n\t\tUp above the world so high, \n\t\tLike a diamond in the sky. \nTwinkle, twinkle, little star, \n\tHow I wonder what you are") 
+
+Q # 2
+
+!python --version
+
+Q # 3
+
+from datetime import datetime
+now = datetime.now()
+print (now.strftime("%Y-%m-%d %H:%M:%S"))
+
+Q # 4
+
+a= 3.14;
+b = float(input("Please Enter Radius Value"));
+c = a*b*b;
+print(c)
+
+Q # 5
+
+FirstName = str(input("Enter You First Name"));
+LastName = str(input("Enter Your Last Name"));
+FullName = LastName + FirstName;
+print(FullName)
+
+Q # 6
+
+a = int(input("Enter the Value"));
+b = int(input("Enter the Value"));
+c= a+ b;
+print(c);
